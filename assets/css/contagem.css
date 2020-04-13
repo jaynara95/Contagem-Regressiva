@@ -1,0 +1,78 @@
+*{
+	padding: 0;
+	margin: 0;
+	outline: none;
+	font-family: 'Roboto', sans-serif;
+}
+body{
+	background-color: #000;
+	width: 100%;
+}
+.inner{
+	padding: 15% 0;
+	background-color: #000;
+}
+
+.contagem{
+	width: 100%;
+	height: 20vh;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	margin: 0 auto;
+	align-items: center;
+}
+.numero{
+	min-width: 50%;
+	max-width: 55px;
+	/*background-color: #ffffff;*/
+	font-size: 40px;
+	margin: 1.2rem;
+	text-align: center;
+	border-radius: 5px;
+	padding: 0.95rem;
+	font-weight: 800;
+	color: #FF195B;
+    border: 1px solid #FF195B;
+}
+.legenda{
+	font-size:1rem;
+	text-align: center;
+    font-weight:500;
+	color: rgba(42, 47, 74, 0.975);
+	color: #ffffff;
+	}
+.botao{
+	padding: 1rem;
+	margin: 0 auto;
+	background-color: #FF195B;
+	color: #ffffff;
+	border-radius: 2rem;
+	border: none;
+	font-size: 0.90rem;
+	text-transform: uppercase;
+	float: left;
+	flex-direction: column;
+	margin-top: -6rem;
+	position: absolute;
+	top: 78%;
+    left: 50%;
+    margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+h2{
+	color:#FF195B;
+	text-align: center;
+}
+.footer{
+	text-align: center;
+	color: #ffffff;
+	font-size: 0.75rem;
+	position:absolute;
+    bottom: 2rem;
+    width:100%;
+}
+.footer a{
+	text-decoration: none;
+	color: #ffffff;
+}
